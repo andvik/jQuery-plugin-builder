@@ -18,28 +18,44 @@
         <script src="scripts/vendor/modernizr.min.js"></script>
     </head>
     <body>
-
     <div class="container">
         <div class="row">
             <div class="span2">
                 <nav>
                     <h3>Menu</h3>
-                    <a href="/" class="selected">Home</a>
-                    <a href="/formz.html">Formz</a>
+                    <a href="/">Home</a>
+                    <a href="/formz.html" class="selected">Formz</a>
+                    <a href="/lightbox.html">Lightbox</a>
                 </nav>
             </div>
             <div class="span10">
                 <div class="head ml-20 pl20">
-                    <h1 class="mt0">Plugin Builder Test Suite!</h1>
+                    <h1 class="mt0">Test Form!</h1>
                 </div>
-                <p>Here is a list of plugins in process</p>
-                <h3>Enjoy coding!</h3>
+                <p>You now have a test form</p>
+                <form id="TestForm">
+                    <div class="mb10">
+                        <input type="text" name="email" class="frm-email" data-placeholder="your@email.com" />
+                    </div>
+                    <div class="mb10">
+                        <input type="text" name="test1" class="frm-letters js-inputState" data-pattern="^[a-zA-Z]{1,}$" data-allowedKeys="[a-zA-Z]" data-placeholder="Default Text" />
+                    </div>
+                    <div class="mb10">
+                        <input type="text" name="test2" class="frm-digits" data-pattern="^[0-9]{1,}$" maxlength="3" placeholder="000" />
+                    </div>
+                    <div class="mb10">
+                        <input type="checkbox" name="test3" />
+                        <input type="checkbox" name="test3" />
+                        <input type="checkbox" name="test3" />
+                    </div>
+                    <a href="#" class="js-submit">Validate Form</a>
+                </form>
 
             </div>
+
+
         </div>
     </div>
-
-
 
 
 
