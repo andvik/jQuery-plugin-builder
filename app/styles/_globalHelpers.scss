@@ -1,0 +1,135 @@
+/* ====================================
+	_globalGeneralSettings.scss
+==================================== */
+
+
+
+@include gridSystem(12, 60px, 20px, false, false);
+
+
+// Font Settings
+
+.fLeft {float:left;}
+.fRight {float:right;}
+
+
+
+// Margin Settings
+.m0, .mt0 {margin-top:0px;}
+.m0, .mb0 {margin-bottom:0px;}
+.m0, .ml0 {margin-left:0px;}
+.m0, .mr0 {margin-right:0px;}
+.m5, .mt5 {margin-top:5px;}
+.m5, .mb5 {margin-bottom:5px;}
+.m5, .ml5 {margin-left:5px;}
+.m5, .mr5 {margin-right:5px;}
+.m10, .mt10 {margin-top:10px;}
+.m10, .mb10 {margin-bottom:10px;}
+.m10, .ml10 {margin-left:10px;}
+.m10, .mr10 {margin-right:10px;}
+.m15, .mt15 {margin-top:15px;}
+.m15, .mb15 {margin-bottom:15px;}
+.m15, .ml15 {margin-left:15px;}
+.m15, .mr15 {margin-right:15px;}
+.m20, .mt20 {margin-top:20px;}
+.m20, .mb20 {margin-bottom:20px;}
+.m20, .ml20 {margin-left:20px;}
+.m20, .mr20 {margin-right:20px;}
+.m25, .mt25 {margin-top:25px;}
+.m25, .mb25 {margin-bottom:25px;}
+.m25, .ml25 {margin-left:25px;}
+.m25, .mr25 {margin-right:25px;}
+.m30, .mt30 {margin-top:30px;}
+.m30, .mb30 {margin-bottom:30px;}
+.m30, .ml30 {margin-left:30px;}
+.m30, .mr30 {margin-right:30px;}
+
+.m-5, .mt-5 {margin-top:-5px;}
+.m-5, .mb-5 {margin-bottom:-5px;}
+.m-5, .ml-5 {margin-left:-5px;}
+.m-5, .mr-5 {margin-right:-5px;}
+.m-10, .mt-10 {margin-top:-10px;}
+.m-10, .mb-10 {margin-bottom:-10px;}
+.m-10, .ml-10 {margin-left:-10px;}
+.m-10, .mr-10 {margin-right:-10px;}
+.m-15, .mt-15 {margin-top:-15px;}
+.m-15, .mb-15 {margin-bottom:-15px;}
+.m-15, .ml-15 {margin-left:-15px;}
+.m-15, .mr-15 {margin-right:-15px;}
+.m-20, .mt-20 {margin-top:-20px;}
+.m-20, .mb-20 {margin-bottom:-20px;}
+.m-20, .ml-20 {margin-left:-20px;}
+.m-20, .mr-20 {margin-right:-20px;}
+.m-25, .mt-25 {margin-top:-25px;}
+.m-25, .mb-25 {margin-bottom:-25px;}
+.m-25, .ml-25 {margin-left:-25px;}
+.m-25, .mr-25 {margin-right:-25px;}
+.m-30, .mt-30 {margin-top:-30px;}
+.m-30, .mb-30 {margin-bottom:-30px;}
+.m-30, .ml-30 {margin-left:-30px;}
+.m-30, .mr-30 {margin-right:-30px;}
+
+// Padding Settings
+.p0, .pt0 {padding-top:0px;}
+.p0, .pb0 {padding-bottom:0px;}
+.p0, .pl0 {padding-left:0px;}
+.p0, .pr0 {padding-right:0px;}
+.p5, .pt5 {padding-top:5px;}
+.p5, .pb5 {padding-bottom:5px;}
+.p5, .pl5 {padding-left:5px;}
+.p5, .pr5 {padding-right:5px;}
+.p10, .pt10 {padding-top:10px;}
+.p10, .pb10 {padding-bottom:10px;}
+.p10, .pl10 {padding-left:10px;}
+.p10, .pr10 {padding-right:10px;}
+.p15, .pt15 {padding-top:15px;}
+.p15, .pb15 {padding-bottom:15px;}
+.p15, .pl15 {padding-left:15px;}
+.p15, .pr15 {padding-right:15px;}
+.p20, .pt20 {padding-top:20px;}
+.p20, .pb20 {padding-bottom:20px;}
+.p20, .pl20 {padding-left:20px;}
+.p20, .pr20 {padding-right:20px;}
+.p25, .pt25 {padding-top:25px;}
+.p25, .pb25 {padding-bottom:25px;}
+.p25, .pl25 {padding-left:25px;}
+.p25, .pr25 {padding-right:25px;}
+.p30, .pt30 {padding-top:30px;}
+.p30, .pb30 {padding-bottom:30px;}
+.p30, .pl30 {padding-left:30px;}
+.p30, .pr30 {padding-right:30px;}
+
+
+
+
+
+/* Font/Tag Settings */
+
+.px10 {font-size:10px;}
+p.px10 {line-height:16px;}
+.px11 {font-size:11px;}
+p.px11 {line-height:17px;}
+.px12 {font-size:12px;}
+p.px12 {line-height:18px;}
+.px13 {font-size:13px;}
+p.px13 {line-height:19px;}
+.px14 {font-size:14px;}
+p.px14 {line-height:20px;}
+.px15 {font-size:15px;}
+p.px15 {line-height:20px;}
+.px16 {font-size:16px;}
+p.px16 {line-height:21px;}
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+.textLeft {
+	text-align:left;
+}
+.textRight {
+	text-align:right;
+}
+.textCenter {
+	text-align:center;
+}
